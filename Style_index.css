@@ -2,6 +2,7 @@ body{
     padding-left: 100px;
     padding-right: 100px;
     background-color: rgb(26, 26, 26);
+    font-size: 20px;
 }
 
 a{
@@ -136,6 +137,14 @@ section{
     width: 200px;
 }
 
+.link_blablabol{
+    color: red;
+}
+
+.img_figur{
+    border: 2px solid black;
+}
+
 /* section table */
 
 .section_table{
@@ -181,7 +190,7 @@ table{
 .section_form{
     background-color: white;
     border-radius: 30px;
-    margin-top: 20px;
+    margin-top: 30px;
     padding-top: 20px;
     padding-bottom: 20px;
 }
@@ -189,6 +198,28 @@ table{
 .section_div_form{
     display: flex;
     justify-content: center;
+}
+
+.button_div{
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+}
+
+.button_save{
+    background-color: #5d9e5d;
+    font-size: 24px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 10px;
+}
+
+.section_select{
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+.textarea{
+    resize: none;
 }
 
 /* Section foter */
